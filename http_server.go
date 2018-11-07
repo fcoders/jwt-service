@@ -22,10 +22,10 @@ import (
 
 	"github.com/fcoders/jwt-service/api"
 	"github.com/fcoders/jwt-service/core/authentication"
-	"github.com/fcoders/jwt-service/logger"
 	"github.com/fcoders/jwt-service/routes"
 	"github.com/fcoders/jwt-service/services"
 	"github.com/fcoders/jwt-service/settings"
+	"github.com/fcoders/logger"
 	"github.com/gin-gonic/gin"
 	"github.com/yvasiyarov/gorelic"
 )

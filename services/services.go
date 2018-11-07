@@ -17,7 +17,7 @@ package services
 import (
 	"github.com/fcoders/jwt-service/core/cache"
 	"github.com/fcoders/jwt-service/core/cache/redis"
-	"github.com/fcoders/jwt-service/logger"
+	"github.com/fcoders/logger"
 
 	"github.com/facebookgo/inject"
 )

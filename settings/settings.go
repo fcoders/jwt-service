@@ -38,26 +38,11 @@ type Settings struct {
 		Address  string `yaml:"address"`
 		Password string `yaml:"password"`
 	} `yaml:"redis"`
-	NewRelic struct {
-		Enabled    bool   `yaml:"enabled"`
-		LicenseKey string `yaml:"license_key"`
-	} `yaml:"new_relic"`
-	Slack struct {
-		Enabled    bool   `yaml:"enabled"`
-		WebhookURL string `yaml:"webhook_url"`
-	} `yaml:"slack"`
 	Proxy struct {
 		Enabled bool   `yaml:"enabled"`
 		Address string `yaml:"address"`
 	} `yaml:"proxy"`
 }
-
-// App modes
-const (
-	ModeDebug   = "debug"
-	ModeTest    = "test"
-	ModeRelease = "release"
-)
 
 // Log destinations
 const (
