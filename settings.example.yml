@@ -1,0 +1,14 @@
+app:
+  http_port: 8265
+  log_level: 2
+
+jwt:
+  token_expiration: 60
+
+redis:
+  address: 127.0.0.1:6379
+  password:
+
+proxy:
+  enabled: no
+  address: http://127.0.0.1:8080
